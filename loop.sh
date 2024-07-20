@@ -6,7 +6,7 @@
 #   sleep 1
 # done
 
-for fruits in apple banana orange ; do
+for fruit in apple banana orange ; do
    echo fruit name - $fruit
    sleep 1
 done   
