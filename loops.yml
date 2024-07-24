@@ -9,7 +9,7 @@
     - name: loop
       ansible.builtin.debug:
         msg: Fruit - {{ item }}
-      loops: "{{fruits}}"
+      loop: "{{fruits}}"
 
 
       
