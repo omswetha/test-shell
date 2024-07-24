@@ -8,8 +8,8 @@
   tasks:
     - name: loop
       ansible.builtin.debug:
-        msg: Fruit - {{ item }}
-      loop: "{{fruits}}"
+        msg: fruit - {{ item }}
+      loop: " {{ fruits }}"  
 
 
       
